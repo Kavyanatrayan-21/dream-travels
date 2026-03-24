@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Travels - Destination</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-card glass-card-lg">
+    <h2>Select Destination</h2>
+    <form action="confirmation.html" method="get" class="form">
+      <label>Where to?</label>
+      
+      <div class="destination-grid">
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Paris, France" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Paris</h3>
+              <p>France</p>
+            </div>
+          </div>
+        </label>
+        
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Bali, Indonesia" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Bali</h3>
+              <p>Indonesia</p>
+            </div>
+          </div>
+        </label>
+        
+        <label class="destination-item">
+          <input type="radio" name="destination" value="New York, USA" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>New York</h3>
+              <p>USA</p>
+            </div>
+          </div>
+        </label>
+        
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Tokyo, Japan" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Tokyo</h3>
+              <p>Japan</p>
+            </div>
+          </div>
+        </label>
+        
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Santorini, Greece" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Santorini</h3>
+              <p>Greece</p>
+            </div>
+          </div>
+        </label>
+
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Rome, Italy" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Rome</h3>
+              <p>Italy</p>
+            </div>
+          </div>
+        </label>
+
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Maldives" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Maldives</h3>
+              <p>Maldives</p>
+            </div>
+          </div>
+        </label>
+
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Dubai, UAE" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Dubai</h3>
+              <p>UAE</p>
+            </div>
+          </div>
+        </label>
+
+        <label class="destination-item">
+          <input type="radio" name="destination" value="London, UK" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=80');">
+            <div class="city-info">
+              <h3>London</h3>
+              <p>UK</p>
+            </div>
+          </div>
+        </label>
+
+        <label class="destination-item">
+          <input type="radio" name="destination" value="Kyoto, Japan" required>
+          <div class="city-card" style="background-image: url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');">
+            <div class="city-info">
+              <h3>Kyoto</h3>
+              <p>Japan</p>
+            </div>
+          </div>
+        </label>
+      </div>
+
+      <label>Budget Range</label>
+      <select name="budget" required>
+        <option value="" disabled selected>-- Choose Budget --</option>
+        <option>$500 - $1,000</option>
+        <option>$1,000 - $2,000</option>
+        <option>$2,000 - $5,000</option>
+        <option>$5,000+</option>
+      </select>
+
+      <button type="submit" class="btn">Confirm Booking</button>
+    </form>
+  </div>
+</body>
+</html>
